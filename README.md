@@ -81,14 +81,6 @@ By default, the system uses the onboard 3.5mm headphone jack (ALSA card `Headpho
 
 ## Building from Source
 
-### Automated Build (GitHub Actions)
-
-Every tagged push (`v*`) triggers `.github/workflows/build-image.yml`, which builds a ready-to-flash image and publishes it as a GitHub Release:
-
-- `spis-<version>-aarch64.img.xz` - the flashable image
-- `spis-<version>-aarch64-CREDENTIALS.txt` - the random root password generated for that build (you'll be forced to change it on first login)
-- `version-info` - build version metadata
-
 ### Manual Installation
 
 See [INSTALL.md](INSTALL.md) for complete step-by-step instructions to build your own image from scratch.
