@@ -15,8 +15,7 @@ A minimal Raspberry Pi OS Lite image for Raspberry Pi that runs [SendSpin](https
 
 ## Supported Hardware
 
-- Raspberry Pi 3 Model B / B+
-- Raspberry Pi 4 Model B
+- Raspberry Pi 2 Model B
 
 ## Quick Start
 
