@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # build.sh
 #
-# Builds a flashable SPIS SD card image for Raspberry Pi 3/4, fully
+# Builds a flashable SPIS SD card image for Raspberry Pi 2B, fully
 # automated (no interactive raspi-config/Imager customization wizard).
 #
-# Starts from the official Raspberry Pi OS Lite (arm64) base image and
+# Starts from the official Raspberry Pi OS Lite (arm32) base image and
 # customizes it via chroot.
 #
 # Requires root + losetup, parted, e2fsprogs (resize2fs/e2fsck), zerofree,
@@ -25,7 +25,7 @@ WORK_DIR="${SCRIPT_DIR}/work"
 DIST_DIR="${SCRIPT_DIR}/dist"
 ROOTFS="${WORK_DIR}/root"
 
-RASPIOS_ARCH="${RASPIOS_ARCH:-arm64}"
+RASPIOS_ARCH="${RASPIOS_ARCH:-arm32}"
 RASPIOS_IMAGE_URL="${RASPIOS_IMAGE_URL:-https://downloads.raspberrypi.com/raspios_lite_${RASPIOS_ARCH}_latest}"
 
 IMG_SIZE="${IMG_SIZE:-4000M}"
