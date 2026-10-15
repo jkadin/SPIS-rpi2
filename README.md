@@ -19,22 +19,9 @@ A minimal Raspberry Pi OS Lite image for Raspberry Pi that runs [SendSpin](https
 
 ## Quick Start
 
-### Download Pre-built Image
-
-Download the latest image from [Releases](https://github.com/Poeschl/SPIS/releases)
-
-Look out for the `*.img.xz` files. The `*.CREDENTIALS.txt` files contains the initial root password.
-
-### Flash to SD Card
-
 #### Linux / MacOS
 
-```bash
-dd if=spis-0.1.0-aarch64.img of=/dev/sdX bs=4M status=progress
-sync
-```
-
-Or [Raspberry PI Imager](https://www.raspberrypi.com/software/)
+Raspberry PI Imager](https://www.raspberrypi.com/software/)
 
 #### Windows
 
